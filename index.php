@@ -19,14 +19,14 @@
 		</center>
 	
 	
-	<form class="myform" action="index.php" method="post">
+<!--	<form class="myform" action="index.php" method="post">
 		<label><b>Username</b></label>
 		<input name="username" type="text" class="inputvalues" placeholder="Type your username" required/><br>
 		<label><b>Password</b></label>
 		<input name="password" type="password" class="inputvalues" placeholder="Type your password" required/><br>
 		<input name="login" type="submit" id="signin_btn" value="Sign In"/><br>
 		<a href="signup.php"><input type="button" id="signup_btn" value="Sign Up"/></a>
-	</form>
+	</form>-->
 	
 	<?php
 		if(isset($_POST['login']))
